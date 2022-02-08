@@ -24,8 +24,8 @@
 }
 
 #triangle{
-    width:250px;
+    width:50%;
     position:absolute;
-    top: 230px;
-    left: 300px;
+    top: 180px;
+    left: 200px;
 }

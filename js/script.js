@@ -35,9 +35,22 @@ switch (expr) {
     $('#triangle').attr("src","imgs/not-today2.png")
     break;
   default:
-    console.log("I didn't catch that");
-    $("#triangle").attr("src"), "imgs/Q.png"
+    console.log("Certainly");
+    $('#triangle').attr("src","imgs/CERTAIN2.png")
 }
+})
+
+$("#button").click(function () {
+  var tayAudio = $("#taytay")[0]
+  if (tayAudio.paused == true) {
+    $("#taytay")[0].play()
+    $("#taylor-button").html("Pause Taylor")
+
+    //$("audio#pop")[0].currentTime = 0
+  } else {
+    $("#taytay")[0].pause()
+    $("#taylor-button").html("Play Taylor")
+  }
 })
 
 
