@@ -12,11 +12,11 @@ switch (expr) {
     break;
   case 2:
     console.log("Yes, yes, yes!");
-    $('#triangle').attr("src","imgs/yes2.png")
+    $('#triangle').attr("src","imgs/YES2.png")
     break;
   case 3:
     console.log("Better Not");
-    $('#triangle').attr("src","imgs/better-not2.png")
+    $('#triangle').attr("src","imgs/BETTER-NOTt2.png")
     break;
   case 4:
     console.log("Certainly");
@@ -24,15 +24,15 @@ switch (expr) {
     break;
     case 5:
     console.log("Go Get 'em, Tiger.");
-    $('#triangle').attr("src","imgs/tiger2.png")
+    $('#triangle').attr("src","imgs/TIGER2.png")
     break;
   case 6:
     console.log("Better luck next year");
-    $('#triangle').attr("src","imgs/luck2.png")
+    $('#triangle').attr("src","imgs/LUCK2.png")
     break;
   case 7:
     console.log("Not today");
-    $('#triangle').attr("src","imgs/not-today2.png")
+    $('#triangle').attr("src","imgs/NOT-TODAY2.png")
     break;
   default:
     console.log("Certainly");
