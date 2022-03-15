@@ -16,7 +16,7 @@ switch (expr) {
     break;
   case 3:
     console.log("Better Not");
-    $('#triangle').attr("src","imgs/BETTER-NOTt2.png")
+    $('#triangle').attr("src","imgs/BETTER-NOT2.png")
     break;
   case 4:
     console.log("Certainly");
